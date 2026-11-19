@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Vault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#" class="logo">HERO<span>VAULT</span></a>
+    <nav>
+      <a href="#heros">Héros</a>
+      <a href="#pouvoirs">Pouvoirs</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="burst">BOOM!</div>
+    <h1>Les héros<br><span>ne meurent jamais</span></h1>
+    <p>Plongez dans l'univers des justiciers masqués, des pouvoirs extraordinaires et des batailles légendaires.</p>
+    <a href="#heros" class="btn">Découvrir les héros ⚡</a>
+  </section>
+
+  <section id="heros" class="section">
+    <h2 class="title">Le panthéon</h2>
+    <div class="cards">
+      <article class="card" style="--c:#e63946">
+        <div class="emoji">🦸‍♂️</div>
+        <h3>Captain Volt</h3>
+        <p class="tag">Électricité</p>
+        <p>Frappé par la foudre lors d'une tempête, il canalise l'énergie de toute une ville.</p>
+        <div class="stat"><span>Force</span><div class="bar"><i style="width:80%"></i></div></div>
+        <div class="stat"><span>Vitesse</span><div class="bar"><i style="width:95%"></i></div></div>
+      </article>
+      <article class="card" style="--c:#7b2cbf">
+        <div class="emoji">🦹‍♀️</div>
+        <h3>Nyx</h3>
+        <p class="tag">Ombres</p>
+        <p>Elle se fond dans l'obscurité et apparaît là où personne ne l'attend.</p>
+        <div class="stat"><span>Force</span><div class="bar"><i style="width:55%"></i></div></div>
+        <div class="stat"><span>Vitesse</span><div class="bar"><i style="width:85%"></i></div></div>
+      </article>
+      <article class="card" style="--c:#2a9d8f">
+        <div class="emoji">🧙‍♂️</div>
+        <h3>Arcanor</h3>
+        <p class="tag">Magie</p>
+        <p>Gardien des dimensions, il manipule le temps et l'espace avec ses runes anciennes.</p>
+        <div class="stat"><span>Force</span><div class="bar"><i style="width:65%"></i></div></div>
+        <div class="stat"><span>Vitesse</span><div class="bar"><i style="width:60%"></i></div></div>
+      </article>
+      <article class="card" style="--c:#f4a261">
+        <div class="emoji">🦾</div>
+        <h3>Iron Titan</h3>
+        <p class="tag">Technologie</p>
+        <p>Génie de l'ingénierie, son armure est le fruit de dix ans de recherche secrète.</p>
+        <div class="stat"><span>Force</span><div class="bar"><i style="width:98%"></i></div></div>
+        <div class="stat"><span>Vitesse</span><div class="bar"><i style="width:70%"></i></div></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="pouvoirs" class="section dark">
+    <h2 class="title">Top pouvoirs</h2>
+    <ol class="powers">
+      <li><b>Téléportation</b> — être partout, tout le temps.</li>
+      <li><b>Vol</b> — le classique indémodable.</li>
+      <li><b>Invisibilité</b> — parfait pour éviter les réunions.</li>
+      <li><b>Super-force</b> — soulever un bus, facile.</li>
+      <li><b>Contrôle du temps</b> — le pouvoir ultime.</li>
+    </ol>
+  </section>
+
+  <section id="quiz" class="section">
+    <h2 class="title">Quel héros es-tu ?</h2>
+    <p class="center">Clique sur le bouton et découvre ton alter ego.</p>
+    <div class="center">
+      <button class="btn" id="quizBtn">Révéler mon héros 🎲</button>
+      <p id="result" class="result"></p>
+    </div>
+  </section>
+
+  <footer>Fait avec ⚡ par un futur super-dev — <span id="year"></span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
